@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Agency - Start Bootstrap Theme</title>
+         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <script>
+  $( function(){
+    $("#datepicker").datepicker();
+  });
+  </script>
+  </head>
+
+  <body id="page-top">
+  
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container ">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">easy travle</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto ">
+            <li class="nav-item ">
+              <a class="nav-link js-scroll-trigger" href="#">자유</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">패키지</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">호텔</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">항공</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">맞춤 투어</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link js-scroll-trigger" href="#">커뮤니티</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container-fluid p-0">
+    <div id="demo1" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/slide01.jpg" alt="Los Angeles">
+      <div class="carousel-caption text-center pb-5 ">
+              <h1><strong>Lorem ipsum dolor sit amet,</strong><br> consectetur adipisicing elit. At, beatae?</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+              <div class="d-none d-md-block mt-5"></div>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/slide02.jpg" alt="Chicago">
+      <div class="carousel-caption text-center pb-5">
+              <h1><strong>Lorem ipsum dolor sit amet,</strong><br> consectetur adipisicing elit. At, beatae?</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+              <div class="d-none d-md-block mt-5"></div>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/slide03.jpg" alt="New York">
+      <div class="carousel-caption text-center pb-5">
+              <h1><strong>Lorem ipsum dolor sit amet,</strong><br> consectetur adipisicing elit. At, beatae?</h1>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+               <div class="d-none d-md-block mt-5"></div>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<div class="info pt-3 bg-dark">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-2 p-0 mb-3">
+        <div class="card">
+          <div class="card-body checkbox pb-1">
+            <h4 class="card-title">1 구분</h4>
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+              <label class="custom-control-label" for="customCheck">여행상품</label>
+            </div>
+                <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="custoCheck" name="example2">
+              <label class="custom-control-label" for="custoCheck">호텔</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 p-0">
+        <div class="card">
+          <div class="card-body  pb-1">
+            <h4 class="card-title">2 상세구분</h4>
+ <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="cusCheck" name="example3">
+              <label class="custom-control-label" for="cusCheck">자유</label>
+            </div>
+                <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="custCheck" name="example4">
+              <label class="custom-control-label" for="custCheck">패키지</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 p-0">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title pb-4">3 출발지</h4>
+            <select class="custom-select">
+            <option selected>서울</option>
+            <option value="1">서울</option>
+            <option value="2">부산</option>
+            <option value="3">대구</option>
+          </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 p-0">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title pb-4">4 여행지역</h4>
+            <select class="custom-select">
+            <option selected>선택</option>
+            <option value="1">일본</option>
+            <option value="2">동남아</option>
+            <option value="3">중국</option>
+            <option value="3">홍콩/대만</option>
+            <option value="3">유럽</option>
+            <option value="3">미주</option>
+            <option value="3">괌/사이판/대양주</option>
+          </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 p-0">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title pb-4">5 출발일</h4>
+            <p class="m-0 pb-1"><input type="text" id="datepicker" class="w-100"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 mt-5">
+       <a href="#" class="btn btn-primary" role="button">검색하기</a>
+      </div>
+
+    </div>
+  </div>
+  
+</div>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12  text-center">
+            <h2 class="section-heading text-uppercase">인기상품</h2>
+            <h3 class="section-subheading text-muted m-md-0">이번 겨울 가장 인기있는 여행상품들을 만나보세요</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 col-sm-6 pb-md-5 mb-md-5">
+            <span class="fa-stack fa-4x">
+              <img src="./images/best01.jpg" alt="" class="rounded">
+            </span>
+          </div>
+          <div class="col-md-3 col-lg-3 pt-5 col-sm-12 d-md-none d-lg-block pl-lg-5 mt-lg-2">
+            <a href="#" style="text-decoration: none" >
+            <h4 class="service-heading text-dark">중남미 5개국</h4>
+            <p class="text-muted text-dark">11일동안 떠나는 중남미 5개국<br>에어캐나다 최신 기종 보잉 787드림라이너로 쾌적하고 편안한 여행을 즐겨보세요</p></a>
+          </div>
+          <div class="col-md-6 col-lg-3  pb-md-5">
+            <span class="fa-stack fa-4x">
+              <img src="./images/best02.jpg" alt="" class="rounded" >
+            </span>
+          </div>
+          <div class="col-md-3 col-lg-3 pt-5 d-md-none d-lg-block pl-lg-5 mt-lg-2">
+            <a href="#"style="text-decoration: none">
+            <h4 class="service-heading text-dark">싱가포르</h4>
+            <p class="text-muted text-dark">싱가포르의 대표 랜드마크 MBS<br>마리나베이샌즈에서 꿈같은 하루를 즐겨보세요</p></a>
+          </div>
+        </div>
+         <div class="row">
+          <div class="col-md-6 col-lg-3 mt-md-5 pb-xl-5">
+            <span class="fa-stack fa-4x">
+              <img src="./images/best03.jpg" alt="" class="rounded">
+            </span>
+          </div>
+          <div class="col-md-3 col-lg-3 pt-5 d-md-none d-lg-block pl-lg-5 pb-xl-5 mt-lg-5">
+            <a href="#"style="text-decoration: none">
+            <h4 class="service-heading text-dark">유럽</h4>
+            <p class="text-muted text-dark">APEX가 인정한 5성급 항공사<br>터키항공으로 유럽으로 가장 합리적으로 떠나보세요</p></a>
+          </div>
+          <div class="col-md-3 col-lg-3 mt-md-5 pb-xl-5">
+            <span class="fa-stack fa-4x">
+             <img src="./images/best04.jpg" alt="" class="rounded">
+            </span>
+          </div>
+          <div class="col-md-6 col-lg-3 pt-5 d-md-none d-lg-block pl-lg-5 pb-xl-5 mt-lg-5">
+            <a href="#"style="text-decoration: none">
+            <h4 class="service-heading text-dark">훗카이도</h4>
+            <p class="text-muted text-dark">겨울이 가장 멋진 곳<br>설경이 아름다운 훗카이도의 매력속으로 빠져보세요</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-dark text-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">추천상품</h2>
+            <h3 class="section-subheading text-muted">이지트래블이 추천하는 합리적인 여행 상품을 만나보세요</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item ">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content ">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/pick01.jpg" alt="" >
+            </a>
+            <div class="portfolio-caption text-dark">
+              <h4 >일본 큐슈</h4>
+              <p class="text-muted">2박 3일</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/pick02.jpg" alt="">
+            </a>
+            <div class="portfolio-caption text-dark">
+              <h4>싱가포르</h4>
+              <p class="text-muted">3박 5일</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/pick03.jpg" alt="">
+            </a>
+            <div class="portfolio-caption text-dark">
+              <h4>동남아 코타키나블루</h4>
+              <p class="text-muted">3박 5일</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/pick04.jpg" alt="">
+            </a>
+            <div class="portfolio-caption text-dark">
+              <h4>중국 상해</h4>
+              <p class="text-muted">3박 4일</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/pick05.jpg" alt="">
+            </a>
+            <div class="portfolio-caption text-dark">
+              <h4>하와이</h4>
+              <p class="text-muted">4박 6일</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">이벤트</h2>
+            <h3 class="section-subheading text-muted">이지트래블만의 풍성하고 다양한 이벤트를 확인하세요</h3>
+          </div>
+        </div>
+    <div class="card-deck w-50 mx-auto">
+  <div class="card">
+    <div class="card-body">
+      <a href="#" class="text-dark">
+      <img src="./images/event01.jpg" alt="" class="w-100">
+      <p class="card-text text-center pt-3">수험생을 위한 여행할인</p></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <a href="#" class="text-dark">
+      <img src="./images/event02.jpg" alt="" class="w-100">
+      <p class="card-text text-center pt-3">페이코로 렌터카 결제할인</p></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <a href="#"class="text-dark">
+      <img src="./images/event03.jpg" alt="" class="w-100">
+      <p class="card-text text-center pt-3">최저가 로밍준비</p></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-left">
+            <h2 class="section-heading text-uppercase">이용안내</h2>
+            <h3 class="section-subheading text-muted">자주하는 질문을 확인하시면 원하는 정보를 빠르게 확인 하실 수 있습니다.</h3>
+          </div>
+          <div class="col-lg-6 ml-auto ">
+            <h2 class="section-heading text-uppercase">고객센터</h2>
+            <h3 class="section-subheading text-muted">고객님의 문의사항에 대해 담당자가 친절히 안내해 드립니다.<br><br>Tel:070-123-456</h3>
+          </div>
+        </div>
+       <div class="row">
+          <div class="col-lg-6">
+                  
+          <div class="card-body col-lg-3 card p-2 mr-2 mb-3" style="float: left;">
+            <a href="#" style="text-decoration: none" class="text-dark">해외항공</a>
+          </div>
+          <div class="card-body col-lg-3 card p-2 mr-2 mb-3" style="float: left;">
+            <a href="#" style="text-decoration: none" class="text-dark">해외호텔</a>
+          </div>
+          <div class="card-body col-lg-3 card p-2  mr-2 mb-3" style="float: left; ">
+            <a href="#" style="text-decoration: none" class="text-dark">패키지여행</a>
+          </div>
+          <div class="card-body col-lg-3 card p-2 mr-2" style="float: left;">
+           <a href="#" style="text-decoration: none" class="text-dark">자유여행</a> 
+          </div>
+           <div class="card-body col-lg-3 card p-2 mr-2" style="float: left;">
+            <a href="#" style="text-decoration: none" class="text-dark">예약/결제</a>
+          </div>
+           <div class="card-body col-lg-3 card p-2" style="float: left;">
+            <a href="#" style="text-decoration: none" class="text-dark">회원혜택안내</a>
+          </div>
+
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <h2 class="section-heading text-uppercase">______________________</h2>
+            <h3 class="section-subheading text-muted">해외여행 문의<br><br>
+1. 평일 해외여행 상담시간(월~금)<br>-기본 상담시간:09:00~18:00
+     -당직 상담시간:18:00~20:00<br><br>
+2. 토요일 해외여행 상담시간<br>
+     -09:00~18:00<br><br>
+3. 일요일 및 공휴일은 휴무</h3>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">일본 큐슈</h2>
+                  <p class="item-intro text-muted">2박 3일</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full01.jpg" alt="">
+                  <p>규슈 사가현의 작은 온천 마을 우레시노 온천. 시원하게 흐르는 우레시노 강을 끼고 있는 계곡의 온천 마을로 용왕의 딸이자 햐얀 피부의 미녀인 오토히메 공주를 모시는 신사가 있다. 그로 인해 이곳에서 소원을 빌면 피부 미인이 된다는 이야기가 있으며, 온천을 하고 나오면 피부가 매끈매끈 해지는 효과를 누릴 수 있다. 일본의 명차로 인정 받고 있는 우레시노 녹차, 온천수로 끓여낸 두부요리 유도후 등의 먹거리까지 겸비해 몸 속까지 미인이 될 것 같은 느낌이 든다. 와라쿠엔 온천 료칸에서는 우레시노 녹차가 들어간 온천을 즐길 수 있다.</p>
+                  <ul class="list-inline">
+                    <li>일정: January 2017</li>
+                    <li>예약: http://www.ddd.com</li>
+                    <li>문의: 02-1234-5678</li>
+                  </ul>
+                  <button class="btn btn-primary"  type="button">
+                    <a href="#" class="text-dark">자세히 보러가기</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">싱가포르</h2>
+                  <p class="item-intro text-muted">3박 5일</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full02.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">동남아 고타키나블루</h2>
+                  <p class="item-intro text-muted">3박 5일</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full03.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Finish</li>
+                    <li>Category: Identity</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">중국 상해</h2>
+                  <p class="item-intro text-muted">3박 4일</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full04.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Lines</li>
+                    <li>Category: Branding</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">하와이</h2>
+                  <p class="item-intro text-muted">4박 6일</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full05.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
+                    <li>Category: Website Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="./images/full06.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
