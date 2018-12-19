@@ -17,12 +17,12 @@ p {
 }
 
 a {
-  color: #00463b;
+  color: #343a40;
 
 }
 
 a:hover {
-  color: #fff;text-decoration: none
+  color:  #00463b;text-decoration: none
 }
 
 .text-primary {
@@ -76,15 +76,16 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fef4ee;
+  border-color: #fef4ee;
+  color: #000
   
 
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #c9d9da !important;
+  border-color: #c9d9da !important;
   color: white;
 }
 
@@ -116,7 +117,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #c9d9da;
 }
 
 #mainNav .navbar-toggler {
@@ -126,17 +127,16 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #00463b;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #00463b;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -149,7 +149,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #00463b;
 }
 
 @media (min-width: 992px) {
@@ -160,7 +160,7 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
-    background-color: #212529
+    background-color: #c9d9da
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -173,7 +173,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #c9d9da;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -205,6 +205,9 @@ img::-moz-selection {
 .custom-select{margin: 10px;left: 20%}
 th,td{text-align: center;}
 .dropdown-item:hover{background: rgba(254,244,238,0.7);}
+#contact{background: #c9d9da;}
+.form-name{color: #fff}
+.page-link{color:#000}
 footer {
   padding: 25px 0;
   text-align: center;
