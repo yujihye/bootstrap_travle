@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>title</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/sub03.css" rel="stylesheet">
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker(); 
+    $( "#datepicker01" ).datepicker();
+    $('[data-toggle="tooltip"]').tooltip();
+  } );
+  </script>
+</head>
+  <body id="page-top">
+  
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container ">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">easy travle</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto ">
+            <div class="dropdown pr-2">
+              <button class="btn btn-dark dropdown-toggle"
+                      type="button" id="dropdownMenu1" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                자유
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <a class="dropdown-item" href="sub01.html">일본</a>
+                <a class="dropdown-item" href="#!">동남아</a>
+                <a class="dropdown-item" href="#!">중국</a>
+                <a class="dropdown-item" href="#!">홍콩/대만</a>
+                <a class="dropdown-item" href="#!">유럽</a>
+                <a class="dropdown-item" href="#!">미주</a>
+                <a class="dropdown-item" href="#!">괌/사이판/대양주</a>
+              </div>
+            </div>
+
+            <div class="dropdown  pr-2">
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button" id="dropdownMenu2" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              패키지
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a class="dropdown-item" href="sub01.html">일본</a>
+                <a class="dropdown-item" href="#!">동남아</a>
+                <a class="dropdown-item" href="#!">중국</a>
+                <a class="dropdown-item" href="#!">홍콩/대만</a>
+                <a class="dropdown-item" href="#!">유럽</a>
+                <a class="dropdown-item" href="#!">미주</a>
+                <a class="dropdown-item" href="#!">괌/사이판/대양주</a>
+            </div>
+          </div>
+            <div class="dropdown  pr-2">
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button" id="dropdownMenu3" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              호텔
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <a class="dropdown-item" href="sub02.html">호텔검색</a>
+              <a class="dropdown-item" href="#!">예약확인</a>
+              <a class="dropdown-item" href="#!">추천호텔</a>
+            </div>
+          </div>
+            <div class="dropdown  pr-2">
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button" id="dropdownMenu4" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              항공
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+              <a class="dropdown-item" href="sub03.html">항공권예약</a>
+              <a class="dropdown-item" href="#!">예약확인</a>
+              <a class="dropdown-item" href="#!">항공권문의</a>
+            </div>
+          </div>
+           <div class="dropdown  pr-2">
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button" id="dropdownMenu5" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              맞춤투어
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu5">
+              <a class="dropdown-item" href="sub04.html">맞춤추천</a>
+              <a class="dropdown-item" href="#!">실시간상담</a>
+            </div>
+          </div>
+            <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle"
+                    type="button" id="dropdownMenu6" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              커뮤니티
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu6">
+              <a class="dropdown-item" href="sub05.html">여행정보</a>
+              <a class="dropdown-item" href="#!">여행후기</a>
+              <a class="dropdown-item" href="#!">갤러리</a>
+              <a class="dropdown-item" href="#!">뉴스</a>
+            </div>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-dark">
+      <div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">항공권예약</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">예약확인</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">항공권문의</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <div id="contact_wrap" class="bg-light" style="height: 800px">
+      <div class="container" style="padding-top: 40px">
+      
+    
+  <div class="start" >
+    <div class="info bg-dark">
+  <div class="container">
+    <div class="row pt-3 m-0" style="height:700px">
+      <div class="btn-group btn-group-toggle col-md-10" data-toggle="buttons" style="height: 37px">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked>국내출발
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off">해외출발
+      </label>
+    </div>
+      <div class="col-md-2 pl-4"><button type="button" class="btn btn-outline-light ml-5">초기화</button></div>
+      <div class="col-md-4 ">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">왕복</label>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">편도</label>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">출도착 다른일정</label>
+      </div>
+      </div>
+     
+      <div class="col-md-3">
+        <div class="card mb-md-0">
+          <div class="card-body">
+            <h4 class="card-title">출발지</h4>
+            <select class="custom-select mt-xl-4 mt-md-4 mt-lg-0 mt-lg-4">
+            <option selected>선택</option>
+            <option value="1">인천</option>
+            <option value="2">김포</option>
+            <option value="3">부산</option>    
+          </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card mb-md-0">
+          <div class="card-body">
+            <h4 class="card-title">도착지</h4>
+            <select class="custom-select mt-xl-4 mt-md-4 mt-lg-0 mt-lg-4">
+            <option selected>선택</option>
+            <option value="1">일본</option>
+            <option value="2">동남아</option>
+            <option value="3">중국</option> 
+            <option value="3">홍콩/대만</option> 
+            <option value="3">유럽</option> 
+            <option value="3">미주</option> 
+            <option value="3">괌/사이판/대양주</option> 
+          </select>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title pb-4">출국일</h4>
+            <p class="m-0 pb-1"><input type="text" id="datepicker01" class="w-100"></p>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title pb-4">귀국일</h4>
+            <p class="m-0 pb-1"><input type="text" id="datepicker" class="w-100"></p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-3">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">일반석</label>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">프리미엄 일반석</label>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">비즈니스석</label>
+      </div>
+      </div>
+       <div class="col-md-3">
+        <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">일등석</label>
+      </div>
+      </div>
+      <button type="button" class="btn btn-secondary col-md-1 pt-2 mt-5 mr-5 ml-5 tt" data-toggle="tooltip"
+        data-placement="top" title="소아요금 - 출발일 기준 만2세 ~ 만12세 미만의 어린이에게 적용되는 요금/
+        유아요금 - 출발일 기준 생후14일 ~ 만24개월 미만의 유아에게 적용되는 요금으로서 별도의 좌석이 없음/
+        별도의 좌석을 원할 경우소아좌석을 예약해야 됨.">인원</button>
+      <div class="col-md-3 pt-3">
+        <div class="card mb-md-0">
+          <div class="card-body">
+            <h4 class="card-title">성인</h4>
+            <select class="custom-select mt-xl-4 mt-md-4 mt-lg-0 mt-lg-4">
+            <option selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+             <option value="3">5</option>
+            <option value="3">6</option>
+            <option value="3">7</option>
+            <option value="3">8</option>
+            <option value="3">9</option>
+          </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pt-3">
+        <div class="card mb-md-0">
+          <div class="card-body">
+            <h4 class="card-title">소아</h4>
+            <select class="custom-select mt-xl-4 mt-md-4 mt-lg-0 mt-lg-4">
+            <option selected>만 12세 미만</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+             <option value="3">5</option>
+            <option value="3">6</option>
+            <option value="3">7</option>
+            <option value="3">8</option>
+            <option value="3">9</option>
+          </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pt-3">
+        <div class="card mb-md-0">
+          <div class="card-body">
+            <h4 class="card-title">유아</h4>
+            <select class="custom-select mt-xl-4 mt-md-4 mt-lg-0 mt-lg-4">
+            <option selected>만 2세 미만</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+            <option value="3">6</option>
+            <option value="3">7</option>
+            <option value="3">8</option>
+            <option value="3">9</option>
+          </select>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 pt-5  bts">
+       <a href="#" class="btn btn-primary" role="button" style="width: 150px">검색하기</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+    </div>
+
+    </div>
+    </div>
+  </div>
+
+  <br>
+    <div id="menu1" class="container tab-pane fade"><br>
+      
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+</html>
